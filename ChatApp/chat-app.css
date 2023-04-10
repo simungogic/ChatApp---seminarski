@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-image: url("chatting.jpg");
+    background-size: cover;
+}
+
+#chat-app {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    height: 70%;
+    width: 50%;
+}
+
+#messages {
+    height: 90%;
+    overflow: auto;
+    max-height: 89%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.message {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    width: 30%;  
+}
+
+.messageUser {
+    font-family: 'Roboto', sans-serif;
+    margin: 2px 0 2px 2px;
+}
+
+.messageText {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    word-break: break-all;
+}
+
+#chat-app form {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+
+#chat-app form input {
+    width: 90%;
+    height: 75%;
+}
+
+#chat-app form button {
+    width:8%;
+    height: 85%;
+    background-color:#008CBA;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: none;
+}
+
+#chat-app form button:hover {
+    background-color:#005470;
+}
+
+#sign-out {
+    position: fixed;
+    background-color:grey;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    height: 5%;
+    border: none;
+    right: 2%;
+    top: 2%;
+}
+
+#sign-out:hover {
+    background-color: black;
+}

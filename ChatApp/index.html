@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Chat App</title>
+</head>
+<body>
+    <div id="index">
+        <h1>Welcome to chat app</h1>
+        <form action="chat-app.html" onsubmit="return validateSignIn()">   
+            <div id="client-name-div">
+                <input type="text" id="client-name" name="client-name"/>
+                <button type="button" onclick=randomizeClientName()>randomize</button>
+            </div>
+            <div id="client-color-div">
+                <input type="color" id="client-color" name="client-color"></span>
+                <button type="button" onclick=randomizeClientColor()>randomize</button>
+            </div> 
+            <div id="submit-div">
+                <input type="submit" value="Sign In" />
+            </div>   
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

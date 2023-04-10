@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto:wght@200&display=swap');
+
+body {
+    height: 100vh;
+    background-image: url("giraffes.jpg");
+    background-size: cover;
+}
+
+#index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Alkatra', cursive;
+    font-size: 50px;
+    margin-bottom: 3%;
+    color: #08303d;
+}
+
+form {
+    width: 20%;
+    height: 25%;
+    padding: 4%;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    background-color: rgb(191, 190, 190);
+    box-shadow: 5px -5px 5px lightblue;
+}
+
+form div {
+    position: relative;
+    height: 40%;
+}
+
+form div * {
+    position: absolute;
+    height: 30%;
+}
+
+#client-name-div input {
+    left: 10%;
+    top: 5%;
+    width: 58%;
+    height: 30%;
+}
+
+#client-name-div button {
+    left: 70%;
+    height: 50%;
+    margin-left: 1%;
+}
+
+#client-color-div input {
+    left: 10%;
+    top: 5%;
+    width: 60%;
+    height: 40%;
+}
+
+#client-color-div button {
+    left: 70%;
+    height: 50%;
+    margin-left: 1%;
+}
+
+#submit-div {
+    height: 20%;
+}
+
+form div input {
+    width: 60%;
+}
+
+form div button {
+    background-color: #008CBA;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: none;
+}
+
+form div button:hover {
+    background-color: #004962;
+}
+
+#submit-div input {
+    left: 10%;
+    height: 100%;
+    width: 80%;
+    background-color:#08303d;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: none;
+}
+
+#submit-div input:hover {
+    background-color:#005470;
+}
